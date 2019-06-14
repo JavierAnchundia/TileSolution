@@ -51,6 +51,8 @@ this.Matriz = new Point [tamanoMatriz][tamanoMatriz];
        
        int posIX = posInicioX;
        int posIY = posInicioY;
+       
+       //Caso Base. Si quieren que se muestre el paso anterior a que se llene todo se debe modificar el valor de 1 a el valor de 2
        if(tamanoMatriz ==1) return;
        
        //If para comparar si esta en la esquina superior izquierda
